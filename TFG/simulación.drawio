@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2024-01-28T22:27:13.507Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5cRcLrGQ1fF2pA1CuKOs" version="22.1.18" type="google">
+  <diagram name="Página-1" id="ojApRACUY5PvaiGoMTEj">
+    <mxGraphModel dx="1613" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="naCXiOv2cLaYNiZCOE62-3" value="&lt;b&gt;Simulación de generación de energía&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#919191;arcSize=23;" vertex="1" parent="1">
+          <mxGeometry x="499" y="90" width="237" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="naCXiOv2cLaYNiZCOE62-4" value="-Selección de módulos fotovoltaicos y microinversor a utilizar&lt;br&gt;&lt;br&gt;- Obtención de irradiancia según coordenadas de instalación&lt;br&gt;&lt;br&gt;-Datos de temperatura de ambiente y celda&lt;br&gt;&lt;br&gt;-Corriente de voltaje y salida de un módulo&lt;br&gt;&lt;br&gt;- Definición de tamaño de arreglo en base a la demanda&lt;br&gt;&lt;br&gt;- Obtención parámetros de salida del sistema FV" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="508" y="149" width="220" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="naCXiOv2cLaYNiZCOE62-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="naCXiOv2cLaYNiZCOE62-7" target="naCXiOv2cLaYNiZCOE62-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="naCXiOv2cLaYNiZCOE62-7" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Obtención de datos de demanda energetica&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#919191;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="237" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="naCXiOv2cLaYNiZCOE62-8" value="-Instalación de un medidor de energia inteligente.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Capturar datos de demanda energetica cada segundo&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-Promediar la demanda de energía diaria&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-Realizar estimaciones de demanda mensual de energía" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="149" width="220" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="naCXiOv2cLaYNiZCOE62-9" value="&lt;b&gt;Análisis de diferentes casos&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#919191;arcSize=23;" vertex="1" parent="1">
+          <mxGeometry x="843" y="90" width="237" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="naCXiOv2cLaYNiZCOE62-10" value="-Utilizar&amp;nbsp; datos de generación mensual y diaria con la cantidad de paneles deseados&lt;br&gt;&lt;br&gt;- Utilizar datos de demanda mensual y de dias específicos&lt;br&gt;&lt;br&gt;-Selección del uso de la batería y su capacidad&amp;nbsp; de almacenamiento y DOD&lt;br&gt;&lt;br&gt;-Calcular consumo mensual y diario de la red eléctrica&lt;br&gt;&lt;br&gt;-Limitación de sistema de entrega de energía en momentos determinados&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="852" y="149" width="220" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="naCXiOv2cLaYNiZCOE62-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="naCXiOv2cLaYNiZCOE62-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="736" y="257.91" as="sourcePoint" />
+            <mxPoint x="840" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
