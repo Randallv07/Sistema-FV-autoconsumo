@@ -6,15 +6,24 @@ Repositorio de paneles e inversores: https://sam.nrel.gov/
 
 Link de colab: https://colab.research.google.com/drive/1FMsFEkTffoYQtdtdxeF0SDfVoq8SBQOM?usp=sharing 
 
-Prepare local enviroment:
+Prepare local environment:
 
 ```
-conda create -f enviroment.yml
+conda create -f environment.yml
 ```
-Or with mamba/micromaba (official test)
+Or with mamba/micromaba (official)
 
 ```
-micromaba create -f enviroment.yml
+micromaba create -f environment.yml
 ```
 
+Directory strucutre:
+
+`TFG`: Contains energy consumption and simulated production data.
+
+`TF_simulacion.ipynb`: Contains original jupyter notebook simulation code with extensive results and plots.
+
+`tf_simulacion.py`: `py` version of the jupyter notebook.
+
+`PV_simulation.py`: This class can be used to simplify the experimentation done with the jupyter notebook.
 
