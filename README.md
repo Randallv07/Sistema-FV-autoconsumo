@@ -17,7 +17,7 @@ Or with mamba/micromaba (official)
 micromaba create -f environment.yml
 ```
 
-Directory strucutre:
+Directory structure:
 
 `TFG`: Contains energy consumption and simulated production data.
 
